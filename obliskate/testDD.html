@@ -1,0 +1,36 @@
+<html>
+  <body>
+    <select id="selectList" multiple size="5">
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+  <option value="4">Option 4</option>
+  <option value="5">Option 5</option>
+</select>
+
+<script>
+  const selectList = document.getElementById("selectList");
+  let draggedOption = null;
+
+  selectList.addEventListener("dragstart", function(event) {
+    draggedOption = event.target;
+    event.dataTransfer.setData("text/plain", ""); // Required for drag to work in Firefox
+  });
+
+  selectList.addEventListener("dragover", function(event) {
+    event.preventDefault();
+  });
+
+  selectList.addEventListener("drop", function(event) {
+    event.preventDefault();
+    if (draggedOption) {
+      const newIndex = [...selectList.options].indexOf(event.target);
+      selectList.removeChild(draggedOption);
+      selectList.add(draggedOption, newIndex);
+      draggedOption = null;
+    }
+  });
+</script>
+
+  </body>
+</html>

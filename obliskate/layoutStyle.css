@@ -1,0 +1,8 @@
+.userBar
+  {padding:10px;
+  background-color:#C0C0C0}
+.app
+  {display:flex;
+  background-color:#E0E0E0}
+.app > .topStuff > .middle
+  {justify-content:center}

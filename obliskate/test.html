@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <style>
+      .light{--default:black;--bg:white}
+      .dark{--default:white;--bg:black}
+      body{color:var(--default);background-color:var(--bg)}
+    </style>
+  </head>
+  <body>
+    <select id="scheme" onchange="applyScheme(this.value)">
+      <option value="sys" selected>System</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+var user={prefs:{sysScheme:window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light",
+    scheme:localStorage.getItem("schemePreference")||"sys"}};
+applyScheme(user.prefs.scheme);
+$("#scheme").val(user.prefs.scheme)
+
+/*const storedPreference=localStorage.getItem("schemePreference");
+const systemPreference=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";
+const schemePreference=storedPreference||"sys";
+applyScheme(schemePreference);
+$("#scheme").val(storedPreference?schemePreference:"sys")*/
+
+function applyScheme(scheme)
+  {localStorage.setItem("schemePreference",scheme)
+  $("body").removeClass(["light","dark"]);
+  $("body").addClass(scheme==="sys"?user.prefs.sysScheme:scheme)}
+    </script>
+  </body>
+</html>

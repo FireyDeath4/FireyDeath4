@@ -1,0 +1,97 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      engines: 
+        node: "8.x"
+      dependencies: 
+        node: "^21.1.0"
+      readme: "# Hello website!\n\nThis is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄\n\n## What's in this project?\n\n← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.\n\n← `index.html`: This is the main web page for your site. The HTML defines the structure and content of the page using _elements_. You'll see references in the HTML to the JS and CSS files. Try clicking the image in the center of the page!\n\n← `style.css`: CSS files add styling rules to your content. The CSS applies styles to the elements in your HTML page. The style rules also make the image move when you click it.\n\n← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript. The code in the JavaScript file runs when the page loads, and when the visitor clicks the button you can add below.\n\nOpen each file and check out the comments (in gray) for more info.\n\n## Try this next 🏗️\n\nTake a look in `TODO.md` for next steps you can try out in your new site!\n\n**_Want a minimal version of this project to build your own website? Check out [Blank Website](https://glitch.com/edit/#!/remix/glitch-blank-website)!_**\n\n![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)\n\n## You built this with Glitch!\n\n[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.\n\n- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.\n- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.\n"
+      readmeFilename: "README.md"
+      gitHead: "3178e1d88ea2b4371add6e3702cb9e248fa9d3a7"
+      name: ""
+      version: ""
+      description: "This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄"
+      _id: "@"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/21.1.0"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/21.1.0"
+    requester: "/app"
+    status: "fetched"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.1.3"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_done"
+  8 debug pnpm:package-json: 
+    prefix: "/app"
+    updated: 
+      engines: 
+        node: "8.x"
+      dependencies: 
+        node: "^21.1.0"
+      readme: "# Hello website!\n\nThis is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄\n\n## What's in this project?\n\n← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.\n\n← `index.html`: This is the main web page for your site. The HTML defines the structure and content of the page using _elements_. You'll see references in the HTML to the JS and CSS files. Try clicking the image in the center of the page!\n\n← `style.css`: CSS files add styling rules to your content. The CSS applies styles to the elements in your HTML page. The style rules also make the image move when you click it.\n\n← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript. The code in the JavaScript file runs when the page loads, and when the visitor clicks the button you can add below.\n\nOpen each file and check out the comments (in gray) for more info.\n\n## Try this next 🏗️\n\nTake a look in `TODO.md` for next steps you can try out in your new site!\n\n**_Want a minimal version of this project to build your own website? Check out [Blank Website](https://glitch.com/edit/#!/remix/glitch-blank-website)!_**\n\n![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)\n\n## You built this with Glitch!\n\n[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.\n\n- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.\n- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.\n"
+      readmeFilename: "README.md"
+      gitHead: "3178e1d88ea2b4371add6e3702cb9e248fa9d3a7"
+      name: ""
+      version: ""
+      description: "This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄"
+      _id: "@"
+  9 debug pnpm:stats: 
+    prefix: "/app"
+    removed: 0
+  10 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_started"
+  11 debug pnpm:stats: 
+    added: 2
+    prefix: "/app"
+  12 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/.registry.npmjs.org/node-bin-setup/1.1.3/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/.registry.npmjs.org/node/21.1.0/node_modules/node-bin-setup"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.1.3"
+    requester: "/app"
+    status: "fetched"
+  14 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_done"
+  15 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/.registry.npmjs.org/node/21.1.0/node_modules/node"
+    link: "/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/node"
+  16 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/node/21.1.0"
+      name: "node"
+      realName: "node"
+      version: "21.1.0"
+    prefix: "/app"
+  17 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/.registry.npmjs.org/node-bin-setup/1.1.3/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/node-bin-setup"
+  18 error pnpm: 
+    message: 
+      errno: -2
+      code: "ENOENT"
+      syscall: "chmod"
+      path: "/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/node/bin/node"
+    err: 
+      name: "Error"
+      message: "ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/node/bin/node'"
+      code: "ENOENT"
+      stack: "Error: ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/07d3a127-2e2f-4f6b-bb1e-6d50c64ed987/node_modules/node/bin/node'"

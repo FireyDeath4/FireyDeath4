@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body{margin:0;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+      background-color:black}
+
+    .container{display:flex;
+      justify-content:center;
+      align-items:center;
+      width:100vw;
+      height:100vh;
+      background-color:lightgray}
+
+    img, .scaledImage{
+      /*max-width: 100%;
+      max-height: 100%;*/
+      object-fit:contain}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span id="scaledImage" class="clock">Content</span>
+    <!--<img id="scaledImage" src="https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/user-avatar/d6797e02-86ba-487a-9839-7f570ea7891a-small.jpg" alt="Image" />-->
+  </div>
+
+  <script>
+    function scaleImageToContainer()
+      {const container=document.querySelector('.container');
+      const image=document.getElementById('scaledImage');
+
+      const containerWidth=container.offsetWidth;
+      const containerHeight=container.offsetHeight;
+
+      // You can adjust these virtual dimensions as needed
+      const virtualWidth=1000;
+      const virtualHeight=120;
+
+      const widthRatio=containerWidth/virtualWidth;
+      const heightRatio=containerHeight/virtualHeight;
+
+      const scale=Math.min(widthRatio,heightRatio);
+
+      image.style.width=virtualWidth*scale+'px';
+      image.style.height=virtualHeight*scale+'px'}
+
+    // Call the function initially and whenever the container's size changes
+    window.addEventListener('resize', scaleImageToContainer);
+    scaleImageToContainer();
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="site.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

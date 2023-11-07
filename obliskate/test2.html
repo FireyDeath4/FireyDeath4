@@ -1,0 +1,36 @@
+<html>
+  <style>
+    *{margin:0px;padding:0px}
+    body{background-color:black;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    align-items:center;
+    justify-content:center;}
+    div{background-color:lime;
+      width:100vw;
+      height:100vh;}
+    span{background-color:yellow;
+      align-items:center;
+      justify-content:center;
+      padding:5px;
+      transform-origin: center;
+  transform: scale(
+    calc(100% * var(--scale-width) / var(--original-width)),
+    calc(100% * var(--scale-height) / var(--original-height))
+  );
+
+  /* Use these custom properties to set the scale factor */
+  --scale-width: 1;
+  --scale-height: 1;
+  --original-width: 100px;
+  --original-height: 30px;}
+  </style>
+</html>
+<body>
+  <!--<div>-->
+    <span>
+    Span element
+    </span>
+  <!--</div>-->
+</body>
